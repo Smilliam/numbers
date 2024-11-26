@@ -4,7 +4,7 @@ import argparse
 
 def calc_factorial(value):
     total = 1
-    while value > 0:
+    while value >= 0:
         total *= value
         value -= 1
 
